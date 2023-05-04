@@ -120,6 +120,8 @@ public class DDMFormUploadFileEntryHandler implements UploadFileEntryHandler {
 	private long _getDDMFormDefaultUserId(long companyId)
 		throws PortalException {
 
+			//asd
+
 		return _userLocalService.getUserIdByScreenName(
 			companyId, DDMFormConstants.DDM_FORM_DEFAULT_USER_SCREEN_NAME);
 	}
